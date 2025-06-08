@@ -23,7 +23,7 @@ Using advanced DAX measures and data modeling, the dashboard presents insights t
 
 ### 1. 🧮 KPI Metrics Overview
 
-**Visual Used:** KPI Card Metrics (Total Customers, New Joiners, Total Churn, Churn Rate)
+**Visual Used:** ![KPI Card Metrics (Total Customers, New Joiners, Total Churn, Churn Rate)](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/KPIs.png)
 
 **Insights:**  
 These KPIs provide a quick snapshot of business health:
