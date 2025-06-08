@@ -19,177 +19,122 @@ Using advanced DAX measures and data modeling, the dashboard presents insights t
 
 ---
 
-## 🗂️ Data Sources
-
-| Dataset Name             | Description |
-|--------------------------|-------------|
-| **Customer Details**     | Customer ID, Age, Gender, Marital Status |
-| **Account Info**         | Tenure, Monthly Charges, Total Charges, Contract Type |
-| **Service Usage**        | Internet, Streaming, Backup, Security, Tech Support |
-| **Payment Info**         | Payment Method, Paperless Billing |
-| **Churn Info**           | Churn Flag, Churn Category, Churn Reason |
-| **Geography**            | State, Region |
-
----
-
-## 🧠 Insights & Analysis
+## 🧠 Insights & Visual Analysis
 
 ### 1. 🧮 KPI Metrics Overview
 
-**Visual Used:**  
-*(Insert snapshot of KPI cards – Total Customers, New Joiners, Churned Customers, Churn Rate)*
+**Visual Used:** KPI Card Metrics (Total Customers, New Joiners, Total Churn, Churn Rate)
 
 **Insights:**  
-These cards provide an at-a-glance summary of core churn statistics.  
-- **Total Customers** gives the active user base.  
-- **New Joiners** helps track customer acquisition.  
-- **Churn Count** and **Churn Rate** highlight overall attrition.  
-These KPIs help benchmark churn over time and provide an instant view for decision-makers.
+These KPIs provide a quick snapshot of business health:
+- **Total Customers:** 6,418  
+- **New Joiners:** 411  
+- **Total Churn:** 1,732  
+- **Churn Rate:** 26.99%  
+
+Helps track churn dynamics and growth pace at a glance.
 
 ---
 
-### 2. 👤 Churn by Demographics
+### 2. 🔗 Churn Rate by Contract Type
 
-**Visual Used:**  
-*(Insert bar chart showing churn by age groups, gender, marital status)*
+**Visual Used:** `cr b y contract.png`
 
 **Insights:**  
-The visual shows that:
-- Customers aged **above 50** have a higher churn rate.  
-- **Divorced and single** customers tend to churn more frequently than married ones.  
-These insights can guide targeted retention strategies, like loyalty benefits or personalized plans.
+- **Month-to-Month:** Highest churn (46.53%)  
+- **Two Year:** Very low churn (2.73%)  
+
+Suggests longer contracts significantly improve customer retention.
 
 ---
 
-### 3. 📍 Churn by Geography
+### 3. 💳 Churn Rate by Payment Method
 
-**Visual Used:**  
-*(Insert state-wise churn chart or filled map)*
+**Visual Used:** `cr by payment.png`
 
 **Insights:**  
-Certain states such as **Jammu & Kashmir** exhibit a churn rate exceeding 57%.  
-This regional breakdown helps in identifying underperforming regions and optimizing local outreach or support services.
+- **Mailed Check:** 37.82% churn  
+- **Bank Withdrawal:** 34.43%  
+- **Credit Card:** Lowest at 14.80%  
+
+Promoting digital payments can help reduce churn.
 
 ---
 
-### 4. 🔗 Churn by Contract Type
+### 4. ⏳ Churn by Tenure Group
 
-**Visual Used:**  
-*(Insert stacked column chart – churn rate by contract type)*
+**Visual Used:** `cr tc by ten grp.png`
 
 **Insights:**  
-- **Month-to-month contracts** have the highest churn rate (~46%).  
-- **2-year contracts** are the most stable (churn rate < 3%).  
-
-This analysis suggests pushing long-term contracts via discounts or loyalty programs to reduce customer attrition.
+- Churn is highest in **<6 months** and **>24 months** groups.  
+- Shows a need for better onboarding and long-term engagement.
 
 ---
 
-### 5. 💳 Payment Method vs Churn Rate
+### 5. 📡 Churn by Internet Type
 
-**Visual Used:**  
-*(Insert pie or bar chart – churn rate by payment method)*
+**Visual Used:** `cr by internet type.png`
 
 **Insights:**  
-- **Mailed Check** payments lead to the highest churn (~38%).  
-- **Credit Card** and **Electronic Check** show better retention.  
-
-Encouraging auto-pay or digital payments can help minimize churn.
+- **Fiber Optic:** 41.10% churn rate  
+- **None:** Only 7.84%  
+Service type plays a major role in customer satisfaction and retention.
 
 ---
 
-### 6. ⏳ Tenure-Based Churn Analysis
+### 6. 🌐 State-Wise Churn Rates
 
-**Visual Used:**  
-*(Insert line or bar chart showing churn by tenure group)*
+**Visual Used:** `churn by state.png`
 
 **Insights:**  
-- Highest churn is observed in customers with **<6 months** and **>24 months** tenure.  
-- New customers may be disillusioned early, while older ones may feel under-valued.  
-
-Tailored onboarding for new users and loyalty benefits for long-term users are necessary strategies.
+Top states by churn rate:
+- **Jammu & Kashmir:** 57.19%  
+- **Assam:** 38.13%  
+Geo-specific patterns help prioritize regions for service improvement.
 
 ---
 
-### 7. 📡 Services vs Churn
+### 7. 📦 Churn by Services Used
 
-**Visual Used:**  
-*(Insert matrix or table – services like Streaming, Internet, Tech Support vs churn rate)*
+**Visual Used:** `churn by services.png`
 
 **Insights:**  
-- Lack of **Device Protection**, **Online Backup**, or **Streaming Services** increases churn probability.  
-- Offering bundled packages may increase stickiness.  
+- Customers **without Online Security**, **Online Backup**, or **Device Protection** churn at a much higher rate.  
+- **Unlimited Data** and **Streaming Services** reduce churn.  
 
-This table helps identify service combinations that retain customers better.
+Bundling value-added services can enhance loyalty.
 
 ---
 
-### 8. 🗃️ Churn Reasons & Categories
+### 8. 📁 Churn Category Breakdown
 
-**Visual Used:**  
-*(Insert bar chart – Churn Category & Churn Reason frequency)*
+**Visual Used:** `churn by cat.png`
 
 **Insights:**  
-Top reasons for churn include:  
-- **Competition**  
-- **Attitude**  
-- **Dissatisfaction**  
+- **Competitor**: Leading cause with 350 churns  
+- Followed by **Attitude**, **Dissatisfaction**, **Price**, and **Others**  
 
-These qualitative categories offer a powerful lens into customer sentiment and external market pressures.
+These help identify emotional and competitive factors affecting loyalty.
 
 ---
 
 ## 🧱 Data Modeling
 
-All datasets were joined using unique keys such as `Customer ID`. The model follows a star schema with:
+Star schema implemented in Power BI with:
 
 - **Fact Table:** Churn Info  
-- **Dimension Tables:** Customers, Services, Contracts, Geography, Payments
+- **Dimensions:** Customers, Account Info, Payment, Services, Geography
 
-**Key Relationships:**  
-- `Customer_ID` → `Customer Details`, `Account Info`, `Service Usage`  
-- `Customer_ID` → `Payment Info`, `Churn Category`, `Geography`  
+Relationships are built using `Customer ID` as the primary key across multiple tables.
 
 ---
 
-## 📈 Dashboard Snapshots
+## 📌 Key Takeaways
 
-📌 KPI Overview  
-*(Insert image)*
-
-📌 Churn by Age Group  
-*(Insert image)*
-
-📌 Churn by Contract Type  
-*(Insert image)*
-
-📌 Churn by Services  
-*(Insert image)*
-
-📌 Churn Category / Reasons  
-*(Insert image)*
-
----
-
-## 🧠 Key Takeaways
-
-- Customers on **month-to-month contracts**, and those aged **above 50**, are at highest churn risk.  
-- **Mailed Check** and **paper billing** users are more likely to leave.  
-- States like **Jammu & Kashmir** have much higher churn, indicating possible service dissatisfaction or competition.  
-- **Lack of streaming and protection plans** contributes to higher churn.  
-- Churn due to **competition** and **dissatisfaction** points to market repositioning needs.
-
----
-
-## 📌 Conclusion
-
-This dashboard serves as a powerful churn management tool. With its interactive features, executives and analysts can:  
-- Monitor churn trends  
-- Segment risky customers  
-- Understand behavioral patterns  
-- Deploy targeted retention strategies  
-
-By leveraging churn data effectively, telecom companies can improve profitability, reduce acquisition costs, and enhance customer satisfaction.
+- Long-term contracts and credit card payments show reduced churn.
+- Streaming, unlimited data, and online security services retain customers.
+- Regional churn variation highlights weak service areas.
+- Competitor-driven churn dominates; strategic pricing and upgrades are needed.
 
 ---
 
