@@ -38,7 +38,7 @@ Helps track churn dynamics and growth pace at a glance.
 
 ### 2. 🔗 Churn Rate by Contract Type
 
-**Visual Used:** `cr b y contract.png`
+**Visual Used:** [`cr b y contract.png`](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20b%20y%20contract.png)
 
 **Insights:**  
 - **Month-to-Month:** Highest churn (46.53%)  
