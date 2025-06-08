@@ -41,7 +41,9 @@ Helps track churn dynamics and growth pace at a glance.
 **Visual Used:** 
 
 
+
 ![Churn Rate by Contract](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20%20y%20contract.png)
+
 
 
 
@@ -55,7 +57,14 @@ Helps track churn dynamics and growth pace at a glance.
 
 ### 3. 💳 Churn Rate by Payment Method
 
-**Visual Used:** `cr by payment.png`
+**Visual Used:** 
+
+
+
+![`Churn Rate by Payment`](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20payment.png)
+
+
+
 
 **Insights:**  
 - **Mailed Check:** 37.82% churn  
@@ -68,7 +77,13 @@ Promoting digital payments can help reduce churn.
 
 ### 4. ⏳ Churn by Tenure Group
 
-**Visual Used:** `cr tc by ten grp.png`
+**Visual Used:** 
+
+
+![`Churn Rate and Total Churn by Tenure Group.png`](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20tenure.png)
+
+
+
 
 **Insights:**  
 - Churn is highest in **<6 months** and **>24 months** groups.  
@@ -78,7 +93,14 @@ Promoting digital payments can help reduce churn.
 
 ### 5. 📡 Churn by Internet Type
 
-**Visual Used:** `cr by internet type.png`
+**Visual Used:** 
+
+
+
+![`Churn Rate by Internet type.png`](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20internet%20final.png)
+
+
+
 
 **Insights:**  
 - **Fiber Optic:** 41.10% churn rate  
@@ -89,7 +111,13 @@ Service type plays a major role in customer satisfaction and retention.
 
 ### 6. 🌐 State-Wise Churn Rates
 
-**Visual Used:** `churn by state.png`
+**Visual Used:** 
+
+
+![Churn Rate by State(Top 5)](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20state.png)
+
+
+
 
 **Insights:**  
 Top states by churn rate:
@@ -101,7 +129,14 @@ Geo-specific patterns help prioritize regions for service improvement.
 
 ### 7. 📦 Churn by Services Used
 
-**Visual Used:** `churn by services.png`
+**Visual Used:** 
+
+
+
+[`Churn Rate by Services.png`](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20services.png)
+
+
+
 
 **Insights:**  
 - Customers **without Online Security**, **Online Backup**, or **Device Protection** churn at a much higher rate.  
@@ -113,13 +148,29 @@ Bundling value-added services can enhance loyalty.
 
 ### 8. 📁 Churn Category Breakdown
 
-**Visual Used:** `churn by cat.png`
+**Visual Used:** 
+
+
+
+![`Churn by Category.png`](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20reason.png)
+
+
+
 
 **Insights:**  
 - **Competitor**: Leading cause with 350 churns  
 - Followed by **Attitude**, **Dissatisfaction**, **Price**, and **Others**  
 
 These help identify emotional and competitive factors affecting loyalty.
+
+### Dashboard Snapshot
+
+
+
+![Churn Dashboard](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/churn%20dashboard%20snapshot.png)
+
+
+
 
 ---
 
