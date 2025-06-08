@@ -49,7 +49,7 @@ Helps track churn dynamics and growth pace at a glance.
 - **Month-to-Month:** Highest churn (46.53%)  
 - **Two Year:** Very low churn (2.73%)  
 
-Suggests longer contracts significantly improve customer retention.
+**Suggestion:** Longer contracts significantly improve customer retention.
 
 ---
 
