@@ -3,7 +3,7 @@
 
 An interactive Power BI dashboard project designed to analyze customer churn behavior for a telecom company. This solution helps understand churn drivers and patterns using demographic, behavioral, geographic, and service usage dimensions.
 
-### 🔗 Dashboard Link: [Dashboard Link](https://drive.google.com/file/d/1sUAkKSBeHC7EWvDTGhxc9B68vldje3dI/view)
+### 🔗 Dashboard Link: [https://drive.google.com/file/d/1sUAkKSBeHC7EWvDTGhxc9B68vldje3dI/view](https://drive.google.com/file/d/1sUAkKSBeHC7EWvDTGhxc9B68vldje3dI/view)
 
 ---
 
