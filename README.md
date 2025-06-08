@@ -170,7 +170,7 @@ Bundling value-added services can enhance loyalty.
 
 These help identify emotional and competitive factors affecting loyalty.
 
-**Also added a Tooltip in this Visual to further elaborate the data and provide clarification to the stakeholder's eye.**
+**Also added a Tooltip in this Visual which shows data dynamically as we hover over the Churn Category plot to further elaborate the data and provide clarification to the stakeholder's eye.**
 
 **Tooltip Visual**
 
