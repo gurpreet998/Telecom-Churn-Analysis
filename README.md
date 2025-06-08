@@ -133,7 +133,7 @@ Geo-specific patterns help prioritize regions for service improvement.
 
 
 
-[`Churn Rate by Services.png`](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20services.png)
+![`Churn Rate by Services.png`](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cr%20services.png)
 
 
 
@@ -162,6 +162,8 @@ Bundling value-added services can enhance loyalty.
 - Followed by **Attitude**, **Dissatisfaction**, **Price**, and **Others**  
 
 These help identify emotional and competitive factors affecting loyalty.
+
+---
 
 ### Dashboard Snapshot
 
