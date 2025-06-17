@@ -33,7 +33,7 @@ Loaded into a production-ready database with views created for Power BI.
   
   Which reasons dominate churn categories?
 
-### 3. Churn Prediction Model
+### 3. Churn Prediction Model based on Random Forest Algorithm
 
 A machine learning-based prediction model was developed using the Random Forest algorithm in Python. It included:
 
