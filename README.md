@@ -249,23 +249,99 @@ A separate dashboard was then created in Power BI based on these predictions.
 
 ## 📊 Churn Prediction Dashboard
 
+
+
+
 ![Churn Prediction Dashboard](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/PredicitonDashboard.png)
+
+
+
 
 **Key Metrics & Visuals:**
 - **Total Predicted Churners:** 382
 - **Gender Split:**
   - Female: 249
   - Male: 133
+
+
+
+
+![Churn Count by Gender](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_churncount.png)
+
+
+
+
 - **Demographics:**
-  - By Age Group, Marital Status, Tenure Group
+  - By Age Group
+
+
+
+ 
+![Churn Count by Age Group](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_agegrp.png))
+
+
+
+
+  - Marital Status
+
+
+
+ 
+![Churn Count by Marital Status](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_married.png))
+
+
+
+
+  - Tenure Group
+
+
+
+ 
+  ![Churn Count by Tenure Group](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_tnrgrp.png)
+
+
+ 
+    
 - **Behavioral Patterns:**
-  - By Contract Type, Payment Method, Internet Services
+  - By Contract Type
+
+
+
+![Churn Count by Contract](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_contract.png)
+
+
+
+
+  - Payment Method
+
+
+
+![Churn Count by Contract](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_paymentmethod.png)
+
+
+
+
 - **Geography:**
   - Predicted churn by state
+ 
+
+
+  ![Churn Count by Contract](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_state.png)
+
+
+
+
 - **Customer Risk Table:**
   - Includes Customer ID, Monthly Charge, Total Revenue, Refunds, Number of Referrals
 
-This dashboard provides forward-looking insights into which customers are at risk and helps create proactive retention strategies.
+
+
+  ![Churn Count by Contract](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_customerrisk.png)
+
+
+    
+
+## This dashboard provides forward-looking insights into which customers are at risk and helps create proactive retention strategies.
 
 
 ## 🙋‍♂️ About Me
