@@ -7,6 +7,18 @@ An interactive Power BI dashboard project designed to analyze customer churn beh
 
 ---
 
+🔄 ETL Framework
+
+The data for this project was extracted and processed using a structured ETL pipeline as described below:
+
+CSV File: This is the raw source file containing customer churn data.
+
+SQL Server Management Studio (SSMS): Used the built-in import wizard to load and transform the data into a staging table.
+
+SQL Server Database: Final cleaned data was inserted into a production table, which is then used to build Power BI views.
+
+This process ensures data quality, consistency, and scalability for downstream analysis.
+
 ## 📊 Project Overview
 
 This project investigates churn among telecom customers and answers key questions such as:
