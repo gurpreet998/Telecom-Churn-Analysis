@@ -1,5 +1,5 @@
 
-# 📞 Telecom Churn Analysis and Prediction – Power BI & ML Project
+# 📞 Telecom Churn Analysis and Prediction – Power BI & Machine Learning Project
 
 An interactive Power BI dashboard project designed to analyze customer churn behavior for a telecom company. This solution helps understand churn drivers and patterns using demographic, behavioral, geographic, and service usage dimensions.
 
