@@ -9,7 +9,7 @@ An interactive Power BI dashboard project designed to analyze customer churn beh
 
 ## 📊 Project Overview
 
-This project investigates customer churn for a telecom company by combining descriptive and predictive analytics using Power BI, SQL, and Python. It comprises three major components:
+This project investigates customer churn for a telecom company by combining descriptive and predictive analytics using Power BI, SQL, and Python. It comprises four major components:
 
 ### 1. ETL Process
 
