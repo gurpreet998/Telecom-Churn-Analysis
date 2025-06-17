@@ -277,7 +277,7 @@ A separate dashboard was then created in Power BI based on these predictions.
 
 
  
-![Churn Count by Age Group](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_agegrp.png))
+![Churn Count by Age Group](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_agegrp.png)
 
 
 
@@ -287,7 +287,7 @@ A separate dashboard was then created in Power BI based on these predictions.
 
 
  
-![Churn Count by Marital Status](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_married.png))
+![Churn Count by Marital Status](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/cp_married.png)
 
 
 
