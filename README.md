@@ -7,7 +7,7 @@ An interactive Power BI dashboard project designed to analyze customer churn beh
 
 ---
 
-🔄 ETL Framework
+## 🔄 ETL Framework
 
 The data for this project was extracted and processed using a structured ETL pipeline as described below:
 
