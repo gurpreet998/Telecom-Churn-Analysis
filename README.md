@@ -231,7 +231,7 @@ Relationships are built using `Customer ID` as the primary key across multiple t
 Hi, I’m **Gurpreet Singh**, a Data Analyst passionate about solving business problems using data. I specialize in Power BI, SQL, and storytelling through visuals. Currently working at Accenture (Gurugram), I’m open to exciting new opportunities in data analytics and business intelligence.
 
 📫 **Email:** gs268197@gmail.com  
-📱 **Mobile:** +91 7018320090  
+📱 **Mobile:** +917018320090  
 🔗 **LinkedIn:** [linkedin.com/in/gurpreetsingh1998](https://linkedin.com/in/gurpreetsingh1998)  
 💻 **GitHub:** [github.com/gurpreet998](https://github.com/gurpreet998)  
 🌐 **Website:** [gurpreet-singh-998.vercel.app](https://gurpreet-singh-998.vercel.app)
