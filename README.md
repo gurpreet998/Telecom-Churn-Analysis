@@ -249,7 +249,7 @@ A separate dashboard was then created in Power BI based on these predictions.
 
 ## 📊 Churn Prediction Dashboard
 
-![Churn Prediction Dashboard](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/prediction_dashboard.png)
+![Churn Prediction Dashboard](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/PredicitonDashboard.png)
 
 **Key Metrics & Visuals:**
 - **Total Predicted Churners:** 382
