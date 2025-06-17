@@ -225,6 +225,48 @@ Relationships are built using `Customer ID` as the primary key across multiple t
 - Competitor-driven churn dominates; strategic pricing and upgrades are needed.
 
 ---
+### Churn Prediction Analysis
+
+## 📊 Churn Prediction Model using Random Forest
+
+In addition to historical churn analysis, a **Random Forest-based Churn Prediction Model** was built using Python. The steps included:
+
+1. **Data Preprocessing:**
+   - Handled missing values.
+   - Converted categorical variables using Label Encoding.
+2. **Feature Selection:**
+   - Key features: tenure, payment method, contract type, services used, etc.
+3. **Model Training:**
+   - Trained a Random Forest Classifier on the cleaned dataset.
+4. **Evaluation:**
+   - Evaluated performance using accuracy, precision, recall, F1-score, and confusion matrix.
+5. **Prediction:**
+   - Applied model to generate churn predictions and assigned risk scores.
+
+A separate dashboard was then created in Power BI based on these predictions.
+
+---
+
+## 📊 Churn Prediction Dashboard
+
+![Churn Prediction Dashboard](https://github.com/gurpreet998/Telecom-Churn-Analysis/blob/main/Images/prediction_dashboard.png)
+
+**Key Metrics & Visuals:**
+- **Total Predicted Churners:** 382
+- **Gender Split:**
+  - Female: 249
+  - Male: 133
+- **Demographics:**
+  - By Age Group, Marital Status, Tenure Group
+- **Behavioral Patterns:**
+  - By Contract Type, Payment Method, Internet Services
+- **Geography:**
+  - Predicted churn by state
+- **Customer Risk Table:**
+  - Includes Customer ID, Monthly Charge, Total Revenue, Refunds, Number of Referrals
+
+This dashboard provides forward-looking insights into which customers are at risk and helps create proactive retention strategies.
+
 
 ## 🙋‍♂️ About Me
 
