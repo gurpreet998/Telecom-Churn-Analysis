@@ -11,7 +11,7 @@ An interactive Power BI dashboard project designed to analyze customer churn beh
 
 This project investigates customer churn for a telecom company by combining descriptive and predictive analytics using Power BI, SQL, and Python. It comprises three major components:
 
-1. ETL Process
+# 1. ETL Process
 
 A structured ETL (Extract, Transform, Load) pipeline was implemented using SQL Server tools:
 
@@ -21,7 +21,7 @@ Transformation and cleaning using SQL queries.
 
 Loaded into a production-ready database with views created for Power BI.
 
-2. Churn Analysis Dashboard
+# 2. Churn Analysis Dashboard
 
    This Dashboard investigates churn among telecom customers and answers key questions such as:
    
@@ -33,7 +33,7 @@ Loaded into a production-ready database with views created for Power BI.
   
   Which reasons dominate churn categories?
 
-3. Churn Prediction Model
+# 3. Churn Prediction Model
 
 A machine learning-based prediction model was developed using the Random Forest algorithm in Python. It included:
 
@@ -43,7 +43,7 @@ Training and evaluation of the model using a variety of performance metrics
 
 Predicting churn probability and assigning risk profiles to customers
 
-4. Churn Prediction Dashboard
+# 4. Churn Prediction Dashboard
 
 A dedicated dashboard was built in Power BI on top of the prediction output. It includes:
 
